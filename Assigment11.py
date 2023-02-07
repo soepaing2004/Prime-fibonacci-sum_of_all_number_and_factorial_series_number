@@ -31,7 +31,7 @@ class Operation():
 
     @staticmethod
     def prime_number():
-        prime=int(input("Enter a number to check that is prime number or not:"))
+        prime=int(input("Enter a number to check that is a prime number or not:"))
         unknown_number_for_prime_number=0
         if (prime==1):
             print(prime,"is not a prime number.")
