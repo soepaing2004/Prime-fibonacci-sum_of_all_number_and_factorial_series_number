@@ -1,6 +1,6 @@
 class Operation():
-    def __init__(self,user_input):
-        self.x=user_input
+  #  def __init__(self,user_input):
+     #   self.x=user_input
 
     @staticmethod
     def factorial_number():
@@ -48,7 +48,7 @@ class Operation():
 
 print("This is a program that's calculate about the factorial number,fibonacci number, the sum of all the that you enter from 0 and prime number.")
 user_input=input("Enter your operation:")
-Operation(user_input)
+#Operation(user_input)
 if user_input.lower()=="factorial":
     Operation.factorial_number()
 elif user_input.lower()=="fibonacci":
